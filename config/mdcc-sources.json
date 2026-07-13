@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "primaryRepository": {
+    "owner": "MicrosoftDocs",
+    "name": "dynamics-365-contact-center",
+    "branch": "main",
+    "documentationPath": "contact-center",
+    "url": "https://github.com/MicrosoftDocs/dynamics-365-contact-center/tree/main/contact-center"
+  },
+  "liveDocumentation": {
+    "root": "https://learn.microsoft.com/en-us/dynamics365/contact-center/",
+    "allowedHosts": [
+      "learn.microsoft.com",
+      "code.visualstudio.com",
+      "docs.github.com",
+      "github.com"
+    ]
+  },
+  "policy": {
+    "officialSourcesOnly": true,
+    "verifyUiPathsLive": true,
+    "minimumConfidenceForUnqualifiedAnswer": 0.8
+  }
+}
