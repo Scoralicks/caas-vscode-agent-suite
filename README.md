@@ -105,3 +105,9 @@ Valide se esta funcionalidade é nativa e mostre exatamente a fonte oficial: not
 ## Validação
 
 Use `tests/acceptance-scenarios.md` para testar os agentes contra casos propensos a respostas incorretas ou caminhos administrativos inventados.
+
+## Versão 2.0 — pesquisa técnica ampliada
+
+O pacote `mdcc-vscode-agent-suite.zip` agora inclui o **Technical Researcher** e o Agent Reach 1.5.0 vendorizado, com checksum, licença MIT, instalação isolada e tarefas de diagnóstico. A funcionalidade atende pesquisa técnica, produção de conteúdo, agentes locais e prototipagem sem alterar a hierarquia de fontes oficiais do MDCC.
+
+Após descompactar o pacote, execute as tarefas **Research: Install Agent Reach (safe)** e **Research: Agent Reach doctor**. Consulte `docs/agent-reach.md` dentro do pacote para canais opcionais e controles de segurança.
